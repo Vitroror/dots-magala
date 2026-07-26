@@ -6,52 +6,41 @@ Personal dotfiles for my Linux desktop running the Hyprland window manager.
 
 ### Window Manager and Compositor
 
-- **Hyprland** -- dynamic tiling Wayland compositor configured with two monitors (DP-2 at 2560x1440 and HDMI-A-1 at 1920x1080), Brazilian ABNT2 keyboard layout, gaps, rounded corners, blur, and custom keybindings.
-- **hyprlock** -- lockscreen with a blurred background image, large clock display, and weather info fetched from wttr.in.
+- **Hyprland** -- dynamic tiling Wayland compositor
+- **hyprlock** -- lockscreen
 - **hyprpaper** -- wallpaper setter for Hyprland.
 
 ### Status Bar
 
-- **waybar** -- top bar with modules for Hyprland workspaces, system tray, clock, audio visualizer (cava), pulseaudio volume, CPU and memory usage, CPU temperature, network status, and a power button.
+- **waybar** -- top bar with modules
 
 ### Notifications
 
-- **swaync** -- notification center with a dark violet theme, MPRIS music player integration, volume slider, and action buttons for mute, system monitor (btop), lock, reboot, and shutdown.
+- **swaync** -- notification center
 
 ### Application Launcher
 
-- **rofi** -- fullscreen application launcher with a dark translucent background and purple input bar, wired to open via Super+Space.
+- **rofi** -- fullscreen application launcher
 
 ### Logout Screen
 
-- **wlogout** -- overlay with buttons for lock, logout, restart, and shutdown, each with hover-highlighted icons.
+- **wlogout** -- overlay with buttons for lock, logout, restart, and shutdown.
 
 ### Terminal
 
-- **kitty** -- terminal emulator with Tokyo Night Moon color scheme and 80% background opacity.
+- **kitty** -- terminal emulator.
 
 ### Shell
 
-- **fish** -- friendly interactive shell with Dracula-inspired syntax highlighting colors and a custom prompt showing time, user, host, and current directory.
+- **fish** -- shell
 
 ### Text Editor
 
-- **neovim** -- editor configured with lazy.nvim plugin manager including:
-  - Catppuccin colorscheme with a custom very dark background
-  - LSP support via mason.nvim and nvim-lspconfig (for Lua, TypeScript, PHP, and JavaScript/ESLint)
-  - Autocompletion via nvim-cmp with snippets (LuaSnip)
-  - Telescope for fuzzy finding files, live grep, buffers, and help tags
-  - Harpoon2 for quick file navigation
-  - nvim-treesitter for syntax highlighting and indentation
-  - lualine for a status line
-  - vim-fugitive for Git integration
-  - undotree for visual undo history
-  - vim-doge for documentation generation
-  - nvim-highlight-colors for inline color previews
+- **neovim** -- editor configured with lazy.nvim plugin manager
 
 ### Audio
 
-- **cava** -- terminal-based audio visualizer shown in the waybar.
+- **cava** -- terminal-based audio visualizer
 - **pipewire / wireplumber** -- audio server and session manager.
 - **pamixer / libpulse** -- audio control tools.
 - **playerctl** -- media player control (play, pause, next, previous) via keyboard multimedia keys.
@@ -72,7 +61,7 @@ Personal dotfiles for my Linux desktop running the Hyprland window manager.
 
 - **btop** -- system resource monitor (CPU, memory, disks, network, processes).
 - **lm_sensors** -- hardware temperature monitoring.
-- **hyprshot** -- screenshot tool bound to Print and Shift+Print.
+- **hyprshot** -- screenshot tool
 - **kvantum** -- Qt theme engine.
 - **nwg-look** -- GTK settings manager for wayland.
 
